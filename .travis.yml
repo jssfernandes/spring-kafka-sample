@@ -5,6 +5,6 @@ sudo: false
 deploy:
   provider: script
 #  script: "mvn -B -V deploy"
-#  script: "mvn clean deploy -PPRD"
-  script: "mvn clean build -Pdev"
+  script: "mvn clean deploy -Pdev"
+#  script: "mvn clean build -Pdev"
   skip_cleanup: true
